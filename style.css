@@ -6,6 +6,23 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 768px) {
+    .todo-app {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 20px;
+    }
+    .row {
+        flex-direction: column; /* Stack input and button vertically */
+    }
+    input {
+        width: 100%; /* Take up full width */
+        margin-bottom: 10px; /* Add some spacing between input and button */
+    }
+    button {
+        width: 100%; /* Take up full width */
+    }
+}
+
 .container
 {
     width: 100%;
@@ -124,3 +141,4 @@ ul li span:hover
 {
     background: #edeef0;
 }
+
